@@ -199,3 +199,150 @@ header .btn{
     color: var(--light-color);
     line-height: 2;
 }
+
+/* team  */
+.team .slide{
+    text-align: center;
+}
+.team .slide .image{
+    position: relative;
+    overflow: hidden;
+}
+.team .slide .image img{
+    width: 100%;
+}
+.team .slide .image .share{
+    padding: 2rem;
+    position: absolute;
+    bottom: -10rem;
+    left: 0; right: 0;
+    background: rgba(0,0,0,.8);
+}
+.team .slide:hover .image .share{
+    bottom: 0;
+}
+.team .slide .image .share a{
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: var(--white);
+}
+.team .slide .image .share a:hover{
+    color: var(--secondary);
+}
+.team .slide .content{
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.team .slide .content h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+.team .slide .content span{
+    font-size: 1.5rem;
+    line-height: 2;
+    color: var(--light-color);
+}
+
+/* pricing */
+.pricing{
+    background: var(--light-bg);
+}
+.pricing .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pricing .box-container .box{
+    height: 44rem;
+    width: 30rem;
+    margin: 1.7rem 3.2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: var(--white);
+}
+.pricing .box-container .active{
+    background: var(--hover);
+}
+.pricing .box-container .box .title{
+    margin: 3rem 0;
+    font-size: 2.2rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.pricing .box-container .box .price{
+    color: var(--primary);
+    margin-bottom: 5rem;
+}
+.pricing .box-container .box .price .currancy{
+    font-size: 4rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+}
+.pricing .box-container .box .price .amount{
+    font-size: 5.8rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+}
+.pricing .box-container .box .price .duration{
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+}
+.pricing .box-container .box ul li{
+    text-align: left;
+    font-size: 1.6rem;
+    padding-left: 3.5rem;
+    margin: 2rem auto;
+    color: var(--light-color);
+    text-transform: uppercase;
+}
+.pricing .box-container .box ul li i{
+    padding: 0 1rem;
+    color: var(--secondary);
+}
+
+/* contact */
+.contact{
+    background: var(--light-bg);
+}
+.contact form{
+    padding: 2rem;
+    background: var(--white);
+    max-width: 50rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+.contact form span{
+    font-size: 1.7rem;
+    color: var(--primary);
+}
+.contact form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact form .inputBox input{
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--black);
+    background: var(--light-bg);
+    border-radius: 0.5rem;
+    width: 49%;
+}
+.contact form .box{
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    background: var(--light-bg);
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    color: var(--black);
+}
